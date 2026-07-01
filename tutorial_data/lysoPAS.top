@@ -1,0 +1,15 @@
+#include "martini_v3.0.0.itp"
+#include "go_atomtypes.itp"
+#include "go_nbparams.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+#include "martini_v3.0.0_ions_v1.itp"
+#include "lysoPAS.itp"
+
+[ system ]
+Title of the system
+
+[ molecules ]
+lysoPAS 1
+W 10000
+NA 100
+CL 108
