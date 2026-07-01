@@ -16,3 +16,4 @@ dependencies:
       - cgsmiles
       - GromacsWrapper
       - mdtraj
+      - PyCifRW
