@@ -1,0 +1,18 @@
+name: pegylation
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - gromacs
+  - jupyterlab
+  - ipywidgets
+  - nglview
+  - git
+  - pip:
+      - git+https://github.com/fgrunewald/polyply_1.0.git#polyply_1.0
+      - Pras-Server==1.2.1
+      - cgsmiles
+      - GromacsWrapper
+      - mdtraj
