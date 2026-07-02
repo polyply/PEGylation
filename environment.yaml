@@ -11,7 +11,7 @@ dependencies:
   - nglview
   - git
   - pip:
-      - git+https://github.com/fgrunewald/polyply_1.0.git#polyply_1.0
+      - git+https://github.com/marrink-lab/polyply_1.0.git
       - Pras-Server==1.2.1
       - cgsmiles
       - GromacsWrapper
